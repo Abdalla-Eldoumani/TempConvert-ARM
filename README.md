@@ -18,3 +18,8 @@ m4 Fahrenheit-To-Celsius.asm > ftc.s
 gcc ftc.s -o ftc
 ./ftc 32 # Expected output: 0
 ```
+Or use the provided Makefile to compile and run the programs.
+
+```bash
+make
+```
